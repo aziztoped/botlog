@@ -1,0 +1,13 @@
+"/var/log/botlog/*.log" {
+  daily
+  missingok
+  create 777 www-data www-data
+  rotate 7
+  compress
+  delaycompress
+  notifempty
+  su root www-data
+  postrotate
+    reload toko-botlog >/dev/null 2>&1 || true
+  endscript
+}

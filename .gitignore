@@ -1,6 +1,5 @@
-vendor/src
-vendor/src/*
 /botlog
+/botlog.test
 profiling
 pkg
 *.a
@@ -9,3 +8,5 @@ pkg
 .idea
 *.out
 *.cover
+vendor/src
+vendor/src/*
