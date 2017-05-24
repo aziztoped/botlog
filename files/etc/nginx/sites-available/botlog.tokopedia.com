@@ -1,5 +1,5 @@
 server {
-    server_name  botlog.tokopedia.com;
+    server_name  tomb.tokopedia.com;
     listen 80;
 
     access_log /var/log/nginx/botlog.access.log main;
