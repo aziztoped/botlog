@@ -1,0 +1,11 @@
+vendor/src
+vendor/src/*
+/botlog
+profiling
+pkg
+*.a
+*.txt
+*.orig
+.idea
+*.out
+*.cover
